@@ -51,3 +51,32 @@ function maxNumber(...num1) {
 }
 
 console.log(maxNumber(33, 5, 55, 67, 89, 102, 21));
+
+// -------------------Medium level------------------------------
+
+// 1 Given an array, your function should return the length of the array.
+// Example:
+// Input: arrayLength([1,5,3,7,8]) ––> Output: 5
+
+function arrayLength(arr) {
+  return arr.length;
+}
+
+console.log(arrayLength([1, 2, 7, 11, 13, 19]));
+
+//2. Given an array and an item, your function should return the index at which the item is present.
+//  example: Input: indexOf([1,6,3,5,8,9], 3) ––> Output: 2
+
+function arrayIndex(arr, item) {
+  return arr.indexOf(item) >= 0 ? arr.indexOf(item) : false;
+}
+
+console.log("\n excercise 2 output is :" + arrayIndex([1, 6, 3, 5, 8, 9], 3));
+
+// yessssss i can do it
+
+/// using es6
+const arrayIndex2 = (arr, item) => {
+  return arr.indexOf(item);
+};
+console.log(arrayIndex2([1, 6, 3, 5, 8, 9], 5));
