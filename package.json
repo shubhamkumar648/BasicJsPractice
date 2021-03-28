@@ -8,6 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "BasicJsPractice.git": "https://github.com/shubhamkumar648/BasicJsPractice.git",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
