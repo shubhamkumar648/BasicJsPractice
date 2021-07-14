@@ -145,7 +145,7 @@ for (let i = 0; i <= NumberofDrum; i++) {
 
           default:
 
-console.log(key)
+           console.log(key)
 
 
 }
